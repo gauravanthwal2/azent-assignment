@@ -1,0 +1,26 @@
+.events-nav {
+  max-width: 300px;
+  min-width: 250px;
+  min-height: 200px;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: #64646f33 0px 7px 29px 0px;
+}
+.country p {
+  padding: 0.7rem 0.5rem;
+  border-radius: 10px;
+  margin: 3px 0;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.country p.active{
+  background-color: #f16221;
+  color: #fff;
+}
+
+.country p:hover {
+  background-color: #f16221;
+  color: #fff;
+}
+

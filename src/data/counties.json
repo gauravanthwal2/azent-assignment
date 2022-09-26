@@ -1,0 +1,20 @@
+{
+  "countries": [
+    {
+      "countryCode": "001",
+      "countryName": "USA"
+    },
+    {
+      "countryCode": "061",
+      "countryName": "Australia"
+    },
+    {
+      "countryCode": "044",
+      "countryName": "UK"
+    },
+    {
+      "countryCode": "091",
+      "countryName": "India"
+    }
+  ]
+}

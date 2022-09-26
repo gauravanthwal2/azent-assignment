@@ -1,0 +1,18 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container{
+    max-width: 1000px;
+    margin: .5rem auto;
+}
+
+.primary-color{
+    color: #f16221;
+}
+.secondary-color{
+    color: #00c853;
+}
