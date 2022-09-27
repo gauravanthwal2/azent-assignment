@@ -20,6 +20,9 @@
 }
 
 .country p:hover {
+  background-color: #eee;
+}
+.country p.active:hover{
   background-color: #f16221;
   color: #fff;
 }

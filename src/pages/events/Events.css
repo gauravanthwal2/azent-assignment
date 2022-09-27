@@ -1,7 +1,14 @@
-.events{
-    display: flex;
+.events {
+  display: flex;
 }
-.heading-container h1{
-    color: #242424;
-    text-align: center;
+.heading-container h1 {
+  color: #242424;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .events {
+    flex-direction: column;
+    align-items: center;
+  }
 }
