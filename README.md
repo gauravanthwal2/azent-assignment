@@ -13,9 +13,6 @@ Click on the link to see the application
     1. Events Component: This Component displays list of all events in the selected country.\
     2. Event Nav (Country list) Component: This Component displays all the countries in a dropdown view.
 
-### State Management
-Redux toolkit is used as state management library in this project. There are 2 slices in this project for **country** and **events**.
-
 
 ### URL Routes
 The application has only one route **/** which ties to **Events.js** Component in the pages directory. **/src/pages/events/Events.js**

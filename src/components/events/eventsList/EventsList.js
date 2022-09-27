@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./EventsList.css";
-import { useSelector } from "react-redux";
 import Event from "./Event";
 
-const EventsList = ({ events }) => {
+const EventsList = ({ events, selectedCountry }) => {
   const [allEvents, setAllEvents] = useState([]);
-  const { selectedCountry } = useSelector((state) => state.countries);
-
 
   useEffect(() => {
     const showEvents = events.filter(
