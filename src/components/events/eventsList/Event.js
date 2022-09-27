@@ -7,9 +7,9 @@ const Event = ({ event }) => {
         <img src={event.image} alt="" />
       </div>
       <div className="event-info">
-        <h3>{event.title}</h3>
+        <h3>{event.title} - {event.countryName}</h3>
         <p className="date">{event.date}</p>
-        <p className="plateform">{event.platform} | {event.title}</p>
+        <p className="plateform">{event.platform} | {event.time}</p>
       </div>
       <div className="event-register">
         <button>Register now</button>
